@@ -14,6 +14,7 @@ def fib(A):
         b = c
         print(b)
 fib(10)
+fib(20)
 
 #Soal 2
 def VolumeTabung(r, t):
@@ -21,6 +22,7 @@ def VolumeTabung(r, t):
     return V
 
 print(VolumeTabung(7, 10))
+print(VolumeTabung(14,10))
 
 #Soal 3
 def NilaiTotal(*angka):
@@ -32,4 +34,5 @@ def NilaiTotal(*angka):
     print("Rata-rata = ", C)
 
 NilaiTotal(2,3,5,10)
+NilaiTotal(1,2,3,4,5,6,7,8,9,10)
     
